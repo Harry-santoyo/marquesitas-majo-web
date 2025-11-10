@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Fondo rosa claro, color de postre */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #ffb74d; /* Naranja/Amarillo, color de marquesita */
+    color: #333;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #d81b60; /* Rosa intenso para títulos de sección */
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #ffa000; /* Naranja para subtítulos de menú */
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para las listas de precios con puntos */
+.menu-lista ul {
+    list-style-type: none;
+    padding: 0;
+    width: 60%;
+    margin: 10px auto 20px auto;
+    text-align: left;
+}
+.menu-lista li {
+    margin-bottom: 5px;
+    /* Usa un display flex para alinear el precio a la derecha */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para las secciones de precios simples */
+.menu-precios {
+    width: 60%;
+    margin: 10px auto 20px auto;
+    text-align: left;
+}
+.menu-precios p {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo para la descripción del waffle especial */
+.descripcion-waffle {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+    /* Desactivar el justify-content para esta línea */
+    display: block; 
+}
+
+.nota {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Estilos de Horarios */
+#horarios ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+#horarios li {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Estilos de Ubicación (para el contenedor del mapa) */
+.mapa {
+    margin-top: 15px;
+}
+/* Asegura que el iframe use el ancho completo del contenedor */
+.mapa iframe {
+    max-width: 100%;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #d81b60, rgba(0, 0, 0, 0));
+    margin: 30px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}s
